@@ -1,0 +1,59 @@
+[gd_scene load_steps=12 format=3 uid="uid://1vidpvf5q1h1"]
+
+[ext_resource type="Texture2D" uid="uid://bsb70b13podhq" path="res://Addons/Tiny Swords/Factions/Knights/Troops/Dead/Dead.png" id="1_5wrxg"]
+[ext_resource type="Texture2D" uid="uid://bjewfivy3wc58" path="res://Addons/Tiny Swords/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" id="2_cgwwt"]
+[ext_resource type="Texture2D" uid="uid://djshuq1uxkeme" path="res://Addons/Tiny Swords/Factions/Goblins/Troops/TNT/Red/TNT_Red.png" id="3_h6x17"]
+[ext_resource type="Texture2D" uid="uid://cveeoiwi1s6wi" path="res://Addons/Tiny Swords/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png" id="4_wpbyg"]
+[ext_resource type="Texture2D" uid="uid://b81d7wekt5ben" path="res://Addons/Tiny Swords/Resources/Sheep/HappySheep_All.png" id="5_u1a1h"]
+[ext_resource type="Texture2D" uid="uid://lilfi5pn2nwp" path="res://Addons/Tiny Swords/Resources/Resources/G_Idle.png" id="6_15i12"]
+[ext_resource type="Texture2D" uid="uid://61alv6l60qya" path="res://Addons/Tiny Swords/Resources/Resources/G_Spawn.png" id="7_x1fgs"]
+[ext_resource type="Texture2D" uid="uid://vby3ll0y5ivx" path="res://Addons/Tiny Swords/Resources/Resources/M_Idle.png" id="8_0tf0q"]
+[ext_resource type="Texture2D" uid="uid://bwqsdmafux3on" path="res://Addons/Tiny Swords/Resources/Resources/W_Idle.png" id="9_rfdjh"]
+[ext_resource type="Texture2D" uid="uid://crgebdamd0wtx" path="res://Addons/Tiny Swords/Resources/Resources/W_Spawn.png" id="10_g6mii"]
+[ext_resource type="Texture2D" uid="uid://cviyflwjn3jcq" path="res://Addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="11_h0qjx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dead" type="Sprite2D" parent="."]
+position = Vector2(-865, 1201)
+texture = ExtResource("1_5wrxg")
+
+[node name="TorchRed" type="Sprite2D" parent="."]
+position = Vector2(696, 413)
+texture = ExtResource("2_cgwwt")
+
+[node name="TntRed" type="Sprite2D" parent="."]
+position = Vector2(579, 1181)
+texture = ExtResource("3_h6x17")
+
+[node name="BarrelRed" type="Sprite2D" parent="."]
+position = Vector2(-923, 1736)
+texture = ExtResource("4_wpbyg")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(687, 1829)
+texture = ExtResource("5_u1a1h")
+
+[node name="GIdle" type="Sprite2D" parent="."]
+position = Vector2(1664, 1278)
+texture = ExtResource("6_15i12")
+
+[node name="GSpawn" type="Sprite2D" parent="."]
+position = Vector2(2169, 1296)
+texture = ExtResource("7_x1fgs")
+
+[node name="MIdle" type="Sprite2D" parent="."]
+position = Vector2(1654, 1409)
+texture = ExtResource("8_0tf0q")
+
+[node name="WIdle" type="Sprite2D" parent="."]
+position = Vector2(1663, 1505)
+texture = ExtResource("9_rfdjh")
+
+[node name="WSpawn" type="Sprite2D" parent="."]
+position = Vector2(2163, 1521)
+texture = ExtResource("10_g6mii")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(2166, 1410)
+texture = ExtResource("11_h0qjx")

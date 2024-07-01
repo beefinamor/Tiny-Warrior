@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckw237nxh2thg"]
+
+[ext_resource type="PackedScene" uid="uid://dcxlklxe72cot" path="res://player/player.tscn" id="1_41cdx"]
+[ext_resource type="PackedScene" uid="uid://bice7dxim3v8x" path="res://UI/game_ui.tscn" id="2_gic4o"]
+[ext_resource type="PackedScene" uid="uid://dp4mi8p8fx64m" path="res://Misc/Meat.tscn" id="3_cu2cb"]
+
+[node name="TestUi" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_41cdx")]
+position = Vector2(606, 345)
+
+[node name="GameUI" parent="." instance=ExtResource("2_gic4o")]
+
+[node name="Meat" parent="." instance=ExtResource("3_cu2cb")]
+position = Vector2(344, 391)
+
+[node name="Meat2" parent="." instance=ExtResource("3_cu2cb")]
+position = Vector2(840, 460)
+
+[node name="Meat3" parent="." instance=ExtResource("3_cu2cb")]
+position = Vector2(288, 214)
